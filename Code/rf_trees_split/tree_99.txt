@@ -1,0 +1,2524 @@
+===== TREE 99 =====
+99 =====
+|--- AssignmentCompletion <= 75.500
+|   |--- Attendance <= 70.500
+|   |   |--- AssignmentCompletion <= 59.500
+|   |   |   |--- StudyHours <= 26.500
+|   |   |   |   |--- StudyHours <= 16.500
+|   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 50.500
+|   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  50.500
+|   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 69.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 15.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  15.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  69.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 14.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  14.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |--- StudyHours <= 15.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 56.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 6.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 65.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  65.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  6.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 69.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 66.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  66.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- Attendance >  69.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  56.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 58.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 57.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  57.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 66.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  66.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  58.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StudyHours >  15.500
+|   |   |   |   |   |   |   |--- Attendance <= 65.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 64.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  64.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- Attendance >  65.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 53.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  53.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |--- StudyHours >  16.500
+|   |   |   |   |   |--- StudyHours <= 20.500
+|   |   |   |   |   |   |--- Attendance <= 65.500
+|   |   |   |   |   |   |   |--- StudyHours <= 18.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 61.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 51.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  51.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  61.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StudyHours >  18.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 63.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 60.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 52.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  52.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  60.500
+|   |   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- Attendance >  63.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |--- Attendance >  65.500
+|   |   |   |   |   |   |   |--- Attendance <= 67.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 51.000
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  51.000
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- Attendance >  67.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 1.000
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 54.000
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 69.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  69.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  54.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  1.000
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 54.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  54.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |--- StudyHours >  20.500
+|   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 57.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 68.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 23.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  23.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- Attendance >  68.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  57.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 63.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  63.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 66.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  66.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 57.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  57.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 58.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  58.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |--- StudyHours >  26.500
+|   |   |   |   |--- Attendance <= 69.500
+|   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |--- Attendance <= 64.500
+|   |   |   |   |   |   |   |--- Attendance <= 63.000
+|   |   |   |   |   |   |   |   |--- Attendance <= 60.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  60.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 27.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  27.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 33.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  33.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- Attendance >  63.000
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- Attendance >  64.500
+|   |   |   |   |   |   |   |--- StudyHours <= 28.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 67.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  67.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- StudyHours >  28.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 58.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  58.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |--- Attendance <= 66.000
+|   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 63.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  63.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |--- Attendance >  66.000
+|   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |--- Attendance >  69.500
+|   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 55.000
+|   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  55.000
+|   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |--- AssignmentCompletion >  59.500
+|   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |--- StudyHours <= 16.500
+|   |   |   |   |   |--- AssignmentCompletion <= 61.500
+|   |   |   |   |   |   |--- StudyHours <= 12.500
+|   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |--- StudyHours >  12.500
+|   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |--- AssignmentCompletion >  61.500
+|   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |--- Attendance <= 64.000
+|   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- Attendance >  64.000
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |--- StudyHours <= 10.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 67.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  67.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- StudyHours >  10.500
+|   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 67.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  67.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 73.500
+|   |   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  73.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |--- StudyHours >  16.500
+|   |   |   |   |   |--- StudyHours <= 23.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 60.500
+|   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  60.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 71.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 62.000
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 61.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  61.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  62.000
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  71.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 72.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  72.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 17.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  17.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |--- StudyHours >  23.500
+|   |   |   |   |   |   |--- StudyHours <= 33.500
+|   |   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 65.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 60.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  60.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  65.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StudyHours >  33.500
+|   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |--- StressLevel >  0.500
+|   |   |   |   |--- Attendance <= 61.500
+|   |   |   |   |   |--- StudyHours <= 18.000
+|   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |--- StudyHours <= 8.500
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- StudyHours >  8.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 64.000
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 61.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  61.000
+|   |   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  64.000
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 11.000
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 71.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  71.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  11.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |--- StudyHours <= 14.500
+|   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StudyHours >  14.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 72.000
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  72.000
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |--- StudyHours >  18.000
+|   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |--- Attendance <= 60.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- Attendance >  60.500
+|   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 70.000
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  70.000
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.000
+|   |   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |--- Attendance >  61.500
+|   |   |   |   |   |--- AssignmentCompletion <= 60.500
+|   |   |   |   |   |   |--- Attendance <= 66.500
+|   |   |   |   |   |   |   |--- Attendance <= 64.500
+|   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- Attendance >  64.500
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- Attendance >  66.500
+|   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |--- AssignmentCompletion >  60.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 61.500
+|   |   |   |   |   |   |   |--- Attendance <= 67.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 13.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  13.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 23.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  23.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 66.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  66.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- Attendance >  67.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 21.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 9.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  9.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  21.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 23.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  23.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  61.500
+|   |   |   |   |   |   |   |--- Attendance <= 65.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 62.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 15.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  15.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  62.500
+|   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 69.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  69.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 15.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  15.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |--- Attendance >  65.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 18.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 15.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 12.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  12.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  15.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 68.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  68.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- StudyHours >  18.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 21.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  21.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |--- Attendance >  70.500
+|   |   |--- Attendance <= 94.500
+|   |   |   |--- StudyHours <= 22.500
+|   |   |   |   |--- AssignmentCompletion <= 69.500
+|   |   |   |   |   |--- Attendance <= 93.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 65.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 64.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 63.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 72.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 20.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  20.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- Attendance >  72.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 19.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  19.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  63.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 92.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 90.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  90.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- Attendance >  92.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  64.500
+|   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 19.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 14.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  14.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  19.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 19.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  19.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- AssignmentCompletion >  65.500
+|   |   |   |   |   |   |   |--- StudyHours <= 18.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 92.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 80.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 76.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  76.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- Attendance >  80.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 12.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  12.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- Attendance >  92.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- StudyHours >  18.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 79.500
+|   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 74.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  74.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 20.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  20.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- Attendance >  79.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 89.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 88.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  88.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- Attendance >  89.500
+|   |   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |--- Attendance >  93.500
+|   |   |   |   |   |   |--- StudyHours <= 12.000
+|   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- StudyHours >  12.000
+|   |   |   |   |   |   |   |--- StudyHours <= 19.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 15.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  15.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 68.500
+|   |   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  68.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- StudyHours >  19.500
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |--- AssignmentCompletion >  69.500
+|   |   |   |   |   |--- StudyHours <= 19.500
+|   |   |   |   |   |   |--- Attendance <= 78.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 10.000
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  10.000
+|   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 17.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 72.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  72.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- StudyHours >  17.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- Attendance >  78.500
+|   |   |   |   |   |   |   |--- Attendance <= 81.500
+|   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 73.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  73.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 16.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  16.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 12.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  12.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- Attendance >  81.500
+|   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 93.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 13.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  13.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- Attendance >  93.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 74.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  74.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 17.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 12.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  12.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  17.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 86.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  86.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- StudyHours >  19.500
+|   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 70.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  70.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 21.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 72.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  72.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- StudyHours >  21.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 87.000
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 81.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  81.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  87.000
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 91.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  91.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |--- StudyHours >  22.500
+|   |   |   |   |--- AssignmentCompletion <= 59.500
+|   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 23.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 52.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  52.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  23.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 53.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  53.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 53.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  53.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 24.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  24.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |--- Attendance <= 87.000
+|   |   |   |   |   |   |   |   |--- StudyHours <= 27.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 26.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 80.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  80.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  26.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 51.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  51.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  27.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 84.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 71.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  71.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- Attendance >  84.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 56.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  56.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- Attendance >  87.000
+|   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 26.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  26.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 58.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  58.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |--- Attendance <= 73.500
+|   |   |   |   |   |   |   |--- StudyHours <= 27.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 72.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  72.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- StudyHours >  27.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |--- Attendance >  73.500
+|   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 32.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 54.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  54.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  32.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 23.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  23.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 24.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  24.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 28.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 27.500
+|   |   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  27.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- StudyHours >  28.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 36.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 51.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  51.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  36.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |--- AssignmentCompletion >  59.500
+|   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 71.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 60.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 77.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  77.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 78.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  78.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  60.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 89.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 29.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  29.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 62.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  62.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- Attendance >  89.500
+|   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- AssignmentCompletion >  71.500
+|   |   |   |   |   |   |   |--- StudyHours <= 33.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 93.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 92.000
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- Attendance >  92.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  93.500
+|   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- StudyHours >  33.500
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |--- Attendance <= 90.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 74.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 64.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  64.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 73.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  73.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- Attendance >  74.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 76.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  76.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |--- Attendance >  90.500
+|   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 71.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 68.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  68.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  71.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 73.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 27.500
+|   |   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  27.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 32.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  32.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  73.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 78.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 34.000
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 66.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  66.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  34.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  78.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 74.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 88.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  88.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  74.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |--- Attendance >  94.500
+|   |   |   |--- Discussions <= 0.500
+|   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 51.500
+|   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  51.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 53.000
+|   |   |   |   |   |   |   |   |--- StudyHours <= 15.000
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  15.000
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  53.000
+|   |   |   |   |   |   |   |   |--- StudyHours <= 12.000
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  12.000
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 22.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 16.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  16.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  22.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |--- StudyHours <= 16.500
+|   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 7.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  7.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StudyHours >  16.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 61.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 99.000
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  99.000
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  61.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 67.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 26.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  26.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  67.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 73.000
+|   |   |   |   |   |   |   |--- StudyHours <= 9.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 60.000
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  60.000
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- StudyHours >  9.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 14.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 59.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  59.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  14.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 22.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  22.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 98.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 50.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  50.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- Attendance >  98.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 15.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  15.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  73.000
+|   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 74.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  74.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |--- StudyHours <= 18.500
+|   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 96.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 95.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  95.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  96.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 71.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  71.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 73.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  73.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- StudyHours >  18.500
+|   |   |   |   |   |   |   |--- Attendance <= 97.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 27.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  27.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 67.000
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 96.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  96.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  67.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- Attendance >  97.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 57.000
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  57.000
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |--- Discussions >  0.500
+|   |   |   |   |--- StudyHours <= 22.500
+|   |   |   |   |   |--- AssignmentCompletion <= 67.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 66.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 64.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 61.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 53.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  53.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  61.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 16.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  16.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 52.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  52.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  64.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |--- EduTech <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- EduTech >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  66.500
+|   |   |   |   |   |   |   |--- StudyHours <= 18.500
+|   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StudyHours >  18.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |--- AssignmentCompletion >  67.500
+|   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 16.000
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  16.000
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |--- StudyHours <= 19.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 17.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 14.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 98.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  98.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  14.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 97.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  97.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  17.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 98.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 18.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  18.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  98.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StudyHours >  19.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |--- StudyHours >  22.500
+|   |   |   |   |   |--- AssignmentCompletion <= 56.500
+|   |   |   |   |   |   |--- StudyHours <= 25.000
+|   |   |   |   |   |   |   |--- StudyHours <= 23.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- StudyHours >  23.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 50.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  50.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 51.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  51.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StudyHours >  25.000
+|   |   |   |   |   |   |   |--- Attendance <= 97.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 53.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  53.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 28.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  28.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- Attendance >  97.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 28.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 54.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  54.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  28.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.000
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 52.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  52.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |--- AssignmentCompletion >  56.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 60.500
+|   |   |   |   |   |   |   |--- Attendance <= 96.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 58.000
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  58.000
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- Attendance >  96.500
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  60.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 64.000
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 26.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  26.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 29.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  29.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  64.000
+|   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 95.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  95.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 67.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  67.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 29.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  29.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|--- AssignmentCompletion >  75.500
+|   |--- EduTech <= 0.500
+|   |   |--- StudyHours <= 26.500
+|   |   |   |--- AssignmentCompletion <= 80.500
+|   |   |   |   |--- AssignmentCompletion <= 78.500
+|   |   |   |   |   |--- Attendance <= 70.500
+|   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 77.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  77.500
+|   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 76.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  76.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |--- Attendance >  70.500
+|   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |--- StudyHours <= 24.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 93.500
+|   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  93.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 15.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  15.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StudyHours >  24.500
+|   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |--- Attendance <= 76.500
+|   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- Attendance >  76.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 25.000
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 11.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  11.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- StudyHours >  25.000
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |--- AssignmentCompletion >  78.500
+|   |   |   |   |   |--- Attendance <= 66.000
+|   |   |   |   |   |   |--- StudyHours <= 11.500
+|   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StudyHours >  11.500
+|   |   |   |   |   |   |   |--- Attendance <= 61.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 22.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  22.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- Attendance >  61.500
+|   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |--- Attendance >  66.000
+|   |   |   |   |   |   |--- Attendance <= 67.500
+|   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- Attendance >  67.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 79.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 16.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 14.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  14.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  16.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 77.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  77.000
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  79.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 99.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 21.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 80.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  80.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  21.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  99.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |--- AssignmentCompletion >  80.500
+|   |   |   |   |--- AssignmentCompletion <= 88.500
+|   |   |   |   |   |--- StudyHours <= 19.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 85.500
+|   |   |   |   |   |   |   |--- Attendance <= 88.000
+|   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 16.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 67.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  67.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  16.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 84.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  84.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 64.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  64.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- Attendance >  88.000
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 11.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 95.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  95.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  11.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 18.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  18.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  85.500
+|   |   |   |   |   |   |   |--- Attendance <= 79.000
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 87.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  87.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 18.000
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 87.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  87.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  18.000
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- Attendance >  79.000
+|   |   |   |   |   |   |   |   |--- Attendance <= 98.000
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  98.000
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |--- StudyHours >  19.500
+|   |   |   |   |   |   |--- StudyHours <= 24.500
+|   |   |   |   |   |   |   |--- Attendance <= 73.000
+|   |   |   |   |   |   |   |   |--- Attendance <= 64.000
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  64.000
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- Attendance >  73.000
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 82.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  82.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 81.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  81.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 22.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 79.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  79.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  22.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 97.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  97.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |--- StudyHours >  24.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 71.000
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  71.000
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 67.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  67.000
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- AssignmentCompletion >  88.500
+|   |   |   |   |   |--- Attendance <= 93.500
+|   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 90.000
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 12.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  12.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  90.000
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 95.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 17.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  17.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  95.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 72.000
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 13.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 11.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  11.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  13.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 64.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  64.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- Attendance >  72.000
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 24.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 98.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  98.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  24.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 94.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  94.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |--- StudyHours <= 14.000
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 99.000
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 72.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  72.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  99.000
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- StudyHours >  14.000
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 97.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 63.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  63.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  97.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 83.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 93.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  93.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- Attendance >  83.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 23.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  23.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |--- Attendance >  93.500
+|   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 94.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 92.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 98.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  98.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  92.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  94.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 18.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 97.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  97.000
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  18.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 96.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  96.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 98.000
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 23.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 99.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  99.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  23.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  98.000
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |--- StudyHours >  26.500
+|   |   |   |--- AssignmentCompletion <= 76.500
+|   |   |   |   |--- StudyHours <= 33.500
+|   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |--- StudyHours >  33.500
+|   |   |   |   |   |--- value: [2.000]
+|   |   |   |--- AssignmentCompletion >  76.500
+|   |   |   |   |--- AssignmentCompletion <= 87.500
+|   |   |   |   |   |--- AssignmentCompletion <= 82.500
+|   |   |   |   |   |   |--- StudyHours <= 27.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- StudyHours >  27.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 80.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 78.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  78.500
+|   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 72.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  72.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  80.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 86.000
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 29.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  29.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  86.000
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |--- AssignmentCompletion >  82.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 85.500
+|   |   |   |   |   |   |   |--- Attendance <= 79.000
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- Attendance >  79.000
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 84.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 84.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  84.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  84.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  85.500
+|   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 30.000
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 81.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 69.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  69.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  81.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  30.000
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |--- AssignmentCompletion >  87.500
+|   |   |   |   |   |--- Attendance <= 90.000
+|   |   |   |   |   |   |--- AssignmentCompletion <= 95.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 83.000
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 37.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  37.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  83.000
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 80.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 30.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  30.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  80.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  95.500
+|   |   |   |   |   |   |   |--- Attendance <= 82.000
+|   |   |   |   |   |   |   |   |--- Attendance <= 73.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 70.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  70.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- Attendance >  73.500
+|   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- Attendance >  82.000
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |--- Attendance >  90.000
+|   |   |   |   |   |   |--- StudyHours <= 28.500
+|   |   |   |   |   |   |   |--- StressLevel <= 1.000
+|   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- StressLevel >  1.000
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 98.000
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  98.000
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |--- StudyHours >  28.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 30.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  30.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 94.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  94.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |--- EduTech >  0.500
+|   |   |--- Attendance <= 85.500
+|   |   |   |--- StudyHours <= 23.500
+|   |   |   |   |--- StudyHours <= 17.500
+|   |   |   |   |   |--- StudyHours <= 15.500
+|   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |--- StudyHours <= 8.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 92.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  92.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StudyHours >  8.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 13.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 72.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 87.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  87.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- Attendance >  72.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 97.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  97.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  13.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 76.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 14.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  14.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- Attendance >  76.000
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 89.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  89.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 95.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 79.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 10.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  10.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  79.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 11.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  11.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  95.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 11.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  11.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 68.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  68.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 61.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 98.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  98.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  61.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 93.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 11.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  11.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  93.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 9.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  9.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |--- StudyHours >  15.500
+|   |   |   |   |   |   |--- Attendance <= 68.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 79.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 77.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 76.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  76.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  77.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 78.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  78.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  79.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 92.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 83.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  83.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 67.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  67.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  92.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 61.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  61.000
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 66.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  66.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |--- Attendance >  68.500
+|   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 73.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 80.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  80.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  73.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 91.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 90.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  90.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  91.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 93.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  93.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 75.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 72.500
+|   |   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- Attendance >  72.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  75.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 84.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  84.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 89.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  89.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- StudyHours >  17.500
+|   |   |   |   |   |--- Attendance <= 62.500
+|   |   |   |   |   |   |--- StudyHours <= 20.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 78.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  78.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 19.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  19.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StudyHours >  20.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 77.000
+|   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  77.000
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 87.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 83.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  83.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  87.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |--- Attendance >  62.500
+|   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 99.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 19.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  19.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 82.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  82.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 90.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 63.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  63.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  90.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 94.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  94.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  99.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |--- StudyHours <= 20.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 82.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 78.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  78.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 67.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  67.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  82.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 83.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  83.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- StudyHours >  20.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 64.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 22.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  22.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  64.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 87.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 85.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  85.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  87.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 67.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  67.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |--- StudyHours >  23.500
+|   |   |   |   |--- AssignmentCompletion <= 97.500
+|   |   |   |   |   |--- AssignmentCompletion <= 93.500
+|   |   |   |   |   |   |--- StudyHours <= 26.500
+|   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 71.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 66.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- Attendance >  66.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 81.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  81.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  71.500
+|   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 77.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  77.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 24.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  24.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 76.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  76.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 87.000
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 78.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  78.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  87.000
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 71.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  71.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- StudyHours >  26.500
+|   |   |   |   |   |   |   |--- Attendance <= 80.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 69.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 78.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  78.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- Attendance >  69.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 72.500
+|   |   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- Attendance >  72.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 77.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  77.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- Attendance >  80.500
+|   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 82.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  82.000
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 83.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  83.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 92.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 27.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  27.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  92.000
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |--- AssignmentCompletion >  93.500
+|   |   |   |   |   |   |--- Attendance <= 84.500
+|   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 72.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  72.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 31.000
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 96.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  96.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  31.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 34.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  34.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 80.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- Attendance >  80.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 94.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  94.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- Attendance >  84.500
+|   |   |   |   |   |   |   |--- StudyHours <= 32.000
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- StudyHours >  32.000
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |--- AssignmentCompletion >  97.500
+|   |   |   |   |   |--- Attendance <= 63.000
+|   |   |   |   |   |   |--- LearningStyle <= 1.000
+|   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- LearningStyle >  1.000
+|   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |--- Attendance >  63.000
+|   |   |   |   |   |   |--- StudyHours <= 27.500
+|   |   |   |   |   |   |   |--- Attendance <= 80.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 24.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  24.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 67.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  67.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- Attendance >  80.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StudyHours >  27.500
+|   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 29.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  29.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 72.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  72.000
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 69.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  69.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |--- Attendance >  85.500
+|   |   |   |--- AssignmentCompletion <= 89.500
+|   |   |   |   |--- AssignmentCompletion <= 82.500
+|   |   |   |   |   |--- StudyHours <= 17.500
+|   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |--- Attendance <= 90.500
+|   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- Attendance >  90.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 12.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  12.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 81.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  81.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 8.000
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  8.000
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 15.000
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 80.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  80.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  15.000
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 96.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  96.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 99.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 95.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 12.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  12.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  95.000
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 13.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  13.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- Attendance >  99.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 8.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  8.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |--- StudyHours >  17.500
+|   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |--- Attendance <= 89.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 34.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  34.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |--- Attendance >  89.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 78.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 24.500
+|   |   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  24.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 97.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  97.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  78.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 80.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  80.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 29.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  29.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 78.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 18.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  18.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 21.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  21.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- AssignmentCompletion >  78.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 79.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  79.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 26.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 78.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  78.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 90.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  90.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  26.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 88.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  88.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 79.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  79.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- AssignmentCompletion >  82.500
+|   |   |   |   |   |--- AssignmentCompletion <= 83.500
+|   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |--- AssignmentCompletion >  83.500
+|   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |--- Attendance <= 92.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 87.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 15.000
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  15.000
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 85.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  85.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- Attendance >  87.500
+|   |   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 12.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  12.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- Attendance >  92.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 94.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 14.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  14.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  94.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 88.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  88.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 98.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  98.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |--- Attendance <= 95.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 32.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 31.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 30.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  30.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  31.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- StudyHours >  32.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- Attendance >  95.500
+|   |   |   |   |   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 97.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  97.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |--- AssignmentCompletion >  89.500
+|   |   |   |   |--- Discussions <= 0.500
+|   |   |   |   |   |--- AssignmentCompletion <= 97.500
+|   |   |   |   |   |   |--- AssignmentCompletion <= 96.500
+|   |   |   |   |   |   |   |--- StudyHours <= 18.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 93.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 13.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  13.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  93.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 95.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 98.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  98.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  95.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- StudyHours >  18.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 97.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 29.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 95.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  95.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  29.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 90.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  90.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  97.500
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 91.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  91.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- AssignmentCompletion >  96.500
+|   |   |   |   |   |   |   |--- StudyHours <= 15.500
+|   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |--- StudyHours >  15.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 87.500
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  87.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |--- AssignmentCompletion >  97.500
+|   |   |   |   |   |   |--- StudyHours <= 28.000
+|   |   |   |   |   |   |   |--- StudyHours <= 18.000
+|   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 98.000
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 96.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  96.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  98.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- StudyHours >  18.000
+|   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 97.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  97.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 92.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  92.000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 87.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  87.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- StudyHours >  28.000
+|   |   |   |   |   |   |   |--- StressLevel <= 1.000
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- StressLevel >  1.000
+|   |   |   |   |   |   |   |   |--- Attendance <= 91.000
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  91.000
+|   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |--- Discussions >  0.500
+|   |   |   |   |   |--- AssignmentCompletion <= 92.500
+|   |   |   |   |   |   |--- StudyHours <= 25.500
+|   |   |   |   |   |   |   |--- StudyHours <= 20.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 87.500
+|   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |--- Attendance >  87.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 13.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 91.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  91.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  13.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- StudyHours >  20.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 93.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  93.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 91.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  91.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |--- StudyHours >  25.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 90.500
+|   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  90.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 28.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |--- StudyHours >  28.500
+|   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |--- AssignmentCompletion >  92.500
+|   |   |   |   |   |   |--- Attendance <= 91.500
+|   |   |   |   |   |   |   |--- LearningStyle <= 1.500
+|   |   |   |   |   |   |   |   |--- StudyHours <= 19.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 10.000
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  10.000
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- StudyHours >  19.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 96.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  96.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [2.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |--- LearningStyle >  1.500
+|   |   |   |   |   |   |   |   |--- Attendance <= 88.500
+|   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- Attendance >  88.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 14.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  14.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |--- Attendance >  91.500
+|   |   |   |   |   |   |   |--- AssignmentCompletion <= 96.500
+|   |   |   |   |   |   |   |   |--- StressLevel <= 0.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 98.500
+|   |   |   |   |   |   |   |   |   |   |--- Attendance <= 95.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [1.000]
+|   |   |   |   |   |   |   |   |   |   |--- Attendance >  95.000
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  98.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |--- StressLevel >  0.500
+|   |   |   |   |   |   |   |   |   |--- LearningStyle <= 2.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 15.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  15.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- LearningStyle >  2.500
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel <= 1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [3.000]
+|   |   |   |   |   |   |   |   |   |   |--- StressLevel >  1.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- AssignmentCompletion >  96.500
+|   |   |   |   |   |   |   |   |--- LearningStyle <= 0.500
+|   |   |   |   |   |   |   |   |   |--- StudyHours <= 14.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- StudyHours >  14.500
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion <= 98.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- AssignmentCompletion >  98.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- LearningStyle >  0.500
+|   |   |   |   |   |   |   |   |   |--- Attendance <= 93.500
+|   |   |   |   |   |   |   |   |   |   |--- value: [0.000]
+|   |   |   |   |   |   |   |   |   |--- Attendance >  93.500
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours <= 28.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- StudyHours >  28.500
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+
